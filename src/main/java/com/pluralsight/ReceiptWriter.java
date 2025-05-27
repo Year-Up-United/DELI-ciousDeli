@@ -1,14 +1,13 @@
 package com.pluralsight;
 
-public class UserInterface {
+public class ReceiptWriter {
 
 //                +------------------+
-//                |     CLI/UI       |
+//                |  ReceiptWriter   |
 //                +------------------+
-//                | +run()           |
-//                | +displayMenus()  |
+//                | +writeReceipt()  |
 //                +------------------+
-
+//
 
 
 }
