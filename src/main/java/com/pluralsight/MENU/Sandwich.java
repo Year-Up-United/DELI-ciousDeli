@@ -47,7 +47,69 @@ public class Sandwich {
 
     // method for total price
     public double getTotalPrice() {
-        Str
+        double total = getBasePrice();
+        for (PremiumToppings topping : premiumToppings){
+            total += topping.getPrice(size);
+            return total;
+
+
+
+    public String getDescription() {
+            String description = "";
+
+            description += size + "\" " + breadType + " sandwich";
+            if (isToasted) {
+                description += " (toasted)";
+            }
+
+            description += "\nRegular Toppings:";
+            for (RegularToppings topping : regularToppings) {
+                description += "\n  - " + topping.getName();
+            }
+
+            description += "\nPremium Toppings:";
+            for (PremiumToppings topping : premiumToppings) {
+                description += "\n  - " + topping.getName();
+                if (topping.isExtra()) {
+                    description += " (extra)";
+                }
+            }
+
+            description += "\nSauces:";
+            for (String sauce : sauces) {
+                description += "\n  - " + sauce;
+            }
+
+            description += "\nTotal Price: $" + String.format("%.2f", getTotalPrice());
+
+            return description;
+        }
+
+        // Optional Getters
+        public String getSize() {
+            return size;
+        }
+
+        public String getBreadType() {
+            return breadType;
+        }
+
+        public boolean getIsToasted() {
+            return isToasted;
+        }
+
+        public List<PremiumToppings> getPremiumToppings() {
+            return premiumToppings;
+        }
+
+        public List<RegularToppings> getRegularToppings() {
+            return regularToppings;
+        }
+
+        public List<String> getSauces() {
+            return sauces;
+        }
+    }
     }
 
 //                +------------------+
