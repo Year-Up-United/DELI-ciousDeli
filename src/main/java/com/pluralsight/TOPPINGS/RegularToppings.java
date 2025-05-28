@@ -1,6 +1,6 @@
-package com.pluralsight;
+package com.pluralsight.TOPPINGS;
 
-public class Toppings {
+public class RegularToppings {
 
 //                +------------------+
 //                |     Topping      |
@@ -9,6 +9,5 @@ public class Toppings {
 //                | - type           |
 //                | - isExtra        |
 //                +------------------+
-
 
 }

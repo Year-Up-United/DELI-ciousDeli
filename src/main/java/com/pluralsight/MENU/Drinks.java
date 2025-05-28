@@ -1,4 +1,4 @@
-package com.pluralsight;
+package com.pluralsight.MENU;
 
 public class Drinks {
 
@@ -11,5 +11,6 @@ public class Drinks {
 //                | +getPrice()      |
 //                +------------------+
 //
+
 
 }

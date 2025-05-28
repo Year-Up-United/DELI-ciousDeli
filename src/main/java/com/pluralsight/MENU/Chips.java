@@ -1,16 +1,13 @@
-package com.pluralsight;
+package com.pluralsight.MENU;
 
 public class Chips {
 
 //                +------------------+
-//                |      Chip        |
+//                |      Chips        |
 //                +------------------+
 //                | - type           |
 //                +------------------+
 //                | +getPrice()      |
 //                +------------------+
 //
-
-
-
 }
