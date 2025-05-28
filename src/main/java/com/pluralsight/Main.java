@@ -19,7 +19,11 @@ public class Main {
         int choice = scanner.nextInt();
         scanner.nextLine();
 
-        //
+        // call user interface
+        UserInterface uI = new UserInterface();
+
+        // call from user interface
+        uI.displayMenus();
 
 //      System.out.println("\u001B[95mThis is Baby Pink (Bright Magenta)\u001B[0m");
 //      System.out.println("\u001B[35mThis is Barbie Pink (Magenta)\u001B[0m");
