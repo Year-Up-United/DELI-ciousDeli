@@ -2,17 +2,26 @@ package com.pluralsight.TOPPINGS;
 
 public class PremiumToppings {
 
-    private String name;
-    private String type;
-    private boolean isExtra;
 
-    public PremiumToppings(String name, String type, boolean isExtra){
+//                +------------------+
+//                |     Topping      |
+//                +------------------+
+//                | - name           |
+//                | - type           |
+//                | - isExtra        |
+//                +------------------+
+
+    private String name;      // e.g., "bacon", "cheddar"
+    private String type;      // "meat" or "cheese"
+    private boolean isExtra;  // true if user chose double
+
+    public PremiumToppings(String name, String type, boolean isExtra) {
         this.name = name;
         this.type = type;
         this.isExtra = isExtra;
     }
 
-    public  String getName(){
+    public String getName() {
         return name;
     }
 
@@ -20,11 +29,11 @@ public class PremiumToppings {
         return type;
     }
 
-    public boolean isExtra(){
+    public boolean isExtra() {
         return isExtra;
     }
 
-    public double getPrice(String size){
+    public double getPrice(String size) {
         double price = 0.0;
 
         if (type.equalsIgnoreCase("meat")) {
@@ -39,7 +48,7 @@ public class PremiumToppings {
             }
         } else if (type.equalsIgnoreCase("cheese")) {
             if (isExtra) {
-                if (size.equals("4")) price = 00.30;
+                if (size.equals("4")) price = 0.30;
                 else if (size.equals("8")) price = 0.60;
                 else if (size.equals("12")) price = 0.90;
             } else {
@@ -47,18 +56,9 @@ public class PremiumToppings {
                 else if (size.equals("8")) price = 1.50;
                 else if (size.equals("12")) price = 2.25;
             }
-
-            }
-        return price;
-
         }
-    }
-//                +------------------+
-//                |     Topping      |
-//                +------------------+
-//                | - name           |
-//                | - type           |
-//                | - isExtra        |
-//                +------------------+
 
+        return price;
+    }
+}
 

@@ -1,4 +1,7 @@
 package com.pluralsight;
+// import com.pluralsight.MENU.Sandwich;
+import java.util.Scanner;
+
 
 public class UserInterface {
 
@@ -8,12 +11,22 @@ public class UserInterface {
 //                |                  |
 //                | +displayMenus()  |
 //                +------------------+
+    public void run() {
+        Scanner scanner = new Scanner(System.in);
 
-    public void displayMenus(){
+        boolean active = true;
+        while (active) {
+
+        }
+    }
+
+    public void displayMenus(Scanner scanner){
         // create variables & scanner for input
+        Order order = new Order();
+
         // step 0: create an instance of the order class
         // example: Order order = new order;
-        System.out.println("Here is the menu: ");
+        System.out.println("\u001B[95m☆ PLEASE SELECT WHAT YOU'D LIKE FROM THE MENU ☆ \u001B[0m");
         // add a loop only exit with option 0
         // step 1: write the menu (display menu)
         // menu  adds items
