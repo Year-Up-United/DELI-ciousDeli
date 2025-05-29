@@ -10,7 +10,7 @@ public class PhillyCheeseSteak extends Sandwich {
 
         // premium toppings
         addPremiumTopping(new PremiumToppings("steak","meat",false));
-        addPremuiumTopping(new PremiumToppings("provolone","cheese",false));
+        addPremiumTopping(new PremiumToppings("provolone","cheese",false));
 
         // regular toppings
         addRegularTopping(new RegularToppings("onions"));
