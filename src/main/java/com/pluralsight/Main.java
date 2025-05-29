@@ -1,24 +1,12 @@
 package com.pluralsight;
 import com.pluralsight.MENU.Sandwich;
 import com.pluralsight.TOPPINGS.PremiumToppings;
-
 import java.util.Scanner;
 
 public class Main {
 
-//    public static void test(){
-//        Order o = new Order();
-//        String size = "4 inches";
-//        String breadType = "white";
-//
-//        Sandwich s = new Sandwich(size, breadType, false);
-//        s.addPremiumTopping(new PremiumToppings("Ham", "Meat", true));
-//
-//
-//
-//    }
     public static void main(String[] args) {
-//test();
+
         // Welcome Message
         System.out.println("\u001B[95m ☆ WELCOME TO THE DOLL'S DELI ☆\u001B[0m");
 
@@ -61,12 +49,11 @@ public class Main {
         scanner.close();
     }
 }
-        // call user interface
-//        UserInterface uI = new UserInterface();
-//
-        // call from user interface
-//        uI.displayMenus();
-//
+
+
+
+
+
 //      System.out.println("\u001B[95mThis is Baby Pink (Bright Magenta)\u001B[0m");
 //      System.out.println("\u001B[35mThis is Barbie Pink (Magenta)\u001B[0m");
-
+//      star symbol: ☆

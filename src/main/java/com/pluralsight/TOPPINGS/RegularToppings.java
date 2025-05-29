@@ -12,11 +12,12 @@ public class RegularToppings {
 //                | - isExtra        |
 //                +------------------+
 private String s;
+
     // create constructor so that regular toppings can be called
 public RegularToppings(String s){
     this.s = s;
 }
-
+        // array list for toppings
         private static final List<String> RegularToppings = Arrays.asList(
                 "lettuce", "peppers", "onions", "tomatoes",
                 "jalapeños", "cucumbers", "pickles", "guacamole", "mushrooms"
