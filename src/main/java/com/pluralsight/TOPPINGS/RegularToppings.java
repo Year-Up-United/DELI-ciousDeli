@@ -12,24 +12,24 @@ public class RegularToppings {
 //                | - isExtra        |
 //                +------------------+
 
-        private static final List<String> availableRegularToppings = Arrays.asList(
+        private static final List<String> RegularToppings = Arrays.asList(
                 "lettuce", "peppers", "onions", "tomatoes",
                 "jalapeños", "cucumbers", "pickles", "guacamole", "mushrooms"
         );
 
         public static List<String> getAll() {
-            return availableRegularToppings;
+            return RegularToppings;
         }
 
         public static void displayAll() {
             System.out.println("Available Regular Toppings:");
-            for (String topping : availableRegularToppings) {
+            for (String topping : RegularToppings) {
                 System.out.println(" - " + topping);
             }
         }
 
         public static boolean isValid(String input) {
-            return availableRegularToppings.contains(input.toLowerCase());
+            return RegularToppings.contains(input.toLowerCase());
         }
     }
 
