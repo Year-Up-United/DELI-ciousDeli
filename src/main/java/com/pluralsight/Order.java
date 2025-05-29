@@ -70,7 +70,7 @@ public class Order {
     }
 
     // drinks
-    summary += "\"\\n\\u001B[95m☆ DRINKS ☆\\u001B[0m\\n\"";
+    summary += "\n\u001B[95m☆ DRINKS ☆\u001B[0m\n";
     for (Drinks d: drinks){
         summary += " - " + d.getDescription() + "\n\n";
     }
@@ -82,7 +82,7 @@ public class Order {
     }
 
     // total order
-    summary += "\n\u001B[95m☆ TOTAL ORDER: $\u001B[0m\n" + String.format("2%f", getTotalPrice()) + "\u001B[0m\n";
+    summary += "\n\u001B[95m☆ TOTAL ORDER PRICE: \u001B[0m\n" + String.format("2%f", getTotalPrice()) + "\u001B[0m\n";
     return summary;
     }
 

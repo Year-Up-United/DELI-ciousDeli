@@ -103,7 +103,7 @@ public class UserInterface {
             };
 
         } else if (choice.equals("2")) {
-            System.out.print("SIZE (4, 8, 12): ");
+            System.out.print("SIZE (4', 8', 12'): ");
             String size = scanner.nextLine();
 
             System.out.print("BREAD TYPE (white, wheat, rye, wrap): ");
@@ -116,8 +116,8 @@ public class UserInterface {
 
             // Premium toppings
             System.out.println("\n\u001B[95m☆ ADD PREMIUM TOPPINGS ☆\u001B[0m");
-            System.out.println("Available meats: steak, ham, salami, roast beef, chicken, bacon");
-            System.out.println("Available cheeses: american, provolone, cheddar, swiss");
+            System.out.println("ADD-ONS (MEAT): STEAK, HAM, SALAMI, ROAST BEEF, CHICKEN, BACON");
+            System.out.println("ADD-ONS (CHEESE): AMERICAN, PROVOLONE, CHEDDAR, SWISS");
             while (true) {
                 System.out.print("TOPPING NAME (or 'done'): ");
                 String name = scanner.nextLine();
@@ -134,7 +134,7 @@ public class UserInterface {
 
             // Regular toppings
             System.out.println("\n\u001B[95m☆ ADD REGULAR TOPPINGS ☆\u001B[0m");
-            System.out.println("Available: lettuce, peppers, onions, tomatoes, jalapeños, cucumbers, pickles, guacamole, mushrooms");
+            System.out.println("FREE TOPPINGS: LETTUCE, PEPPERS, ONIONS, TOMATOES, JALAPENOS, CUCUMBERS, PICKLES, GUACAMOLE, MUSHROOMS");
             while (true) {
                 System.out.print("TOPPING NAME (or 'done'): ");
                 String name = scanner.nextLine();
