@@ -87,5 +87,13 @@ public class Order {
     }
 
     // getters (could be optional)
-
+    public List<Sandwich> getSandwiches(){
+        return sandwiches;
+    }
+    public List<Drinks> getDrinks(){
+        return drinks;
+    }
+    public List<Chips> getChips(){
+        return chips;
+    }
 }
