@@ -24,9 +24,9 @@ public class ReceiptWriter {
         }
 
         // adds timestamp to receipt
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd_HHmm");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss");
         String timestamp = LocalDateTime.now().format(formatter);
-        String filename = "receipts/receipt_" + timestamp + ".txt";
+        String filename = timestamp + ".txt";
 
         try (FileWriter writer = new FileWriter(filename)){
              // write header
@@ -42,7 +42,7 @@ public class ReceiptWriter {
             writer.write("THANK YOU FOR DINING WITH THE DOLLS\n");
 
             // confirmation
-            System.out.println("\u001B[95m☆ RECEIPT SAVED TO " + filename + " ☆\u001B[0m");
+            System.out.println("\u001B[95m☆ RECEIPT SAVED: " + filename + " ☆\u001B[0m");
         }
         catch (IOException e){
             System.out.println("ERROR WRITING RECEIPT: " + e.getMessage());

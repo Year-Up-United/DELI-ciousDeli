@@ -26,7 +26,7 @@ public class Chips {
     }
 
     public String getDescription(){
-        return type + String.format("%.2f", getPrice());
+        return type + String.format(" - %.2f", getPrice());
 
     }
 

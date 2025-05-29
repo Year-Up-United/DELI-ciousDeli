@@ -82,7 +82,7 @@ public class Order {
     }
 
     // total order
-    summary += "\n\u001B[95m☆ TOTAL ORDER PRICE: \u001B[0m\n" + String.format("2%f", getTotalPrice()) + "\u001B[0m\n";
+    summary += "\n\u001B[95m☆ TOTAL ORDER PRICE: \u001B[0m\n" + String.format("%.2f", getTotalPrice()) + "\u001B[0m\n";
     return summary;
     }
 
