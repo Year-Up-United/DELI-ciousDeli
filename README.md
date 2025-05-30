@@ -27,6 +27,8 @@ Each of these features is implemented with clear separation of concerns, and the
 
 
 ![Screenshot 2025-05-29 224555](https://github.com/user-attachments/assets/67213dde-55ab-4543-8d9c-c2e6c7bfd6bf)
+![Screenshot 2025-05-29 235825](https://github.com/user-attachments/assets/53e930f8-2242-422a-bd2b-ec2c85371c36)
+
 
 ## ☆ RECEIPT PREVIEW
 ![Screenshot 2025-05-29 221949](https://github.com/user-attachments/assets/6f80fe9f-14b8-4f69-9042-be0b6e4125d1)
