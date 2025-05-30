@@ -143,20 +143,5 @@ The Doll’s Deli application runs from the terminal and is designed using objec
 
 ## ☆ PROJECT STRUCTURE
 
-src/
-└── com/pluralsight/
-    ├── Main.java               # Launches the program
-    ├── UserInterface.java      # Manages all CLI interactions
-    ├── Order.java              # Stores full order: sandwiches, drinks, chips
-    ├── ReceiptWriter.java      # Saves order summary to file
-    ├── menu/
-    │   ├── Sandwich.java       # Main sandwich class
-    │   ├── Chips.java
-    │   ├── Drinks.java
-    │   └── signaturesandwiches/
-    │       ├── BLT.java
-    │       ├── PhillyCheeseSteak.java
-    │       └── TheDollSandwich.java
-    └── TOPPINGS/
-        ├── PremiumToppings.java
-        └── RegularToppings.java
+![Screenshot 2025-05-29 235621](https://github.com/user-attachments/assets/fd6c76a1-16cb-4f43-9999-900ccf65ba2c)
+
