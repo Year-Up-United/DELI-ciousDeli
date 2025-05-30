@@ -23,10 +23,12 @@ Each of these features are implemented with clear separation of concerns, and th
 
 
 
-## Usage/Examples
+## Sample Code
 
 
 ![Screenshot 2025-05-29 224555](https://github.com/user-attachments/assets/67213dde-55ab-4543-8d9c-c2e6c7bfd6bf)
+
+## Receipt Preview
 ![Screenshot 2025-05-29 221949](https://github.com/user-attachments/assets/6f80fe9f-14b8-4f69-9042-be0b6e4125d1)
 
 
