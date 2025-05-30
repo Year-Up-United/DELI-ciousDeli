@@ -26,7 +26,7 @@ public class ReceiptWriter {
         // adds timestamp to receipt
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss");
         String timestamp = LocalDateTime.now().format(formatter);
-        String filename = timestamp + ".txt";
+        String filename = "RECEIPT - " + timestamp + ".txt";
 
         // creates full file pathway
         File filePath = new File(receiptsDir,filename);
