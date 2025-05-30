@@ -1,4 +1,4 @@
-#    ☆ The Doll's Deli ☆
+#    ☆ THE DOLL'S DELI ☆
 
 The Doll’s Deli is a console-based Java program that brings the experience of ordering at a deli to life. 
 
@@ -18,17 +18,17 @@ This project simulates a complete deli ordering experience in a console-based Ja
 - The "Order" class stores all sandwiches, drinks, and chips selected by the user. It can calculate the total price of the order and generate a description of the entire purchase. 
 - Once the user checks out, the "ReceiptWriter" class is used to save a receipt to a file. This class automatically creates a /receipts folder (if it doesn’t exist) and saves a formatted, timestamped text file containing the order summary, item breakdown, total price, and a thank-you message.
 
-Each of these features are implemented with clear separation of concerns, and the classes are designed to work together cleanly using encapsulation, inheritance, and composition.
+Each of these features is implemented with clear separation of concerns, and the classes are designed to work together cleanly using encapsulation, inheritance, and composition.
 
 
 
 
-## Sample Code
+## SAMPLE CODE
 
 
 ![Screenshot 2025-05-29 224555](https://github.com/user-attachments/assets/67213dde-55ab-4543-8d9c-c2e6c7bfd6bf)
 
-## Receipt Preview
+## RECEIPT PREVIEW
 ![Screenshot 2025-05-29 221949](https://github.com/user-attachments/assets/6f80fe9f-14b8-4f69-9042-be0b6e4125d1)
 
 
