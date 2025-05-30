@@ -120,7 +120,7 @@ The Doll’s Deli application runs from the terminal and is designed using objec
 
       - A thank-you message
 
-## ☆ Summary of Class Responsibilities
+## ☆ SUMMARY OF CLASS RESPONSIBILITES
 - **Main.java** – Starts the app and calls UserInterface
 
 - **UserInterface.java** – Manages all user input/output and controls the order process
@@ -141,4 +141,22 @@ The Doll’s Deli application runs from the terminal and is designed using objec
 
 - **ReceiptWriter.java** – Saves the order to a text file as a receipt
 
+## ☆ PROJECT STRUCTURE
 
+src/
+└── com/pluralsight/
+    ├── Main.java               # Launches the program
+    ├── UserInterface.java      # Manages all CLI interactions
+    ├── Order.java              # Stores full order: sandwiches, drinks, chips
+    ├── ReceiptWriter.java      # Saves order summary to file
+    ├── menu/
+    │   ├── Sandwich.java       # Main sandwich class
+    │   ├── Chips.java
+    │   ├── Drinks.java
+    │   └── signaturesandwiches/
+    │       ├── BLT.java
+    │       ├── PhillyCheeseSteak.java
+    │       └── TheDollSandwich.java
+    └── TOPPINGS/
+        ├── PremiumToppings.java
+        └── RegularToppings.java
