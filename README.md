@@ -147,3 +147,7 @@ The Doll’s Deli application runs from the terminal and is designed using objec
 
 ![Screenshot 2025-05-29 235621](https://github.com/user-attachments/assets/fd6c76a1-16cb-4f43-9999-900ccf65ba2c)
 
+## ☆ UML Diagram
+![Image](https://github.com/user-attachments/assets/b4552bca-8e70-43d8-b43a-27bbb446363f)
+
+
