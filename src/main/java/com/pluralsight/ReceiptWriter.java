@@ -28,7 +28,10 @@ public class ReceiptWriter {
         String timestamp = LocalDateTime.now().format(formatter);
         String filename = timestamp + ".txt";
 
-        try (FileWriter writer = new FileWriter(filename)){
+        // creates full file pathway
+        File filePath = new File(receiptsDir,filename);
+
+        try (FileWriter writer = new FileWriter(filePath)){
              // write header
             writer.write("☆ THE DOLL'S DELI ☆\n");
             writer.write("-----------------------\n");
