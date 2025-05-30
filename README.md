@@ -25,10 +25,9 @@ Each of these features are implemented with clear separation of concerns, and th
 
 ## Usage/Examples
 
-![Screenshot 2025-05-29 221949](https://github.com/user-attachments/assets/6f80fe9f-14b8-4f69-9042-be0b6e4125d1)
+
 ![Screenshot 2025-05-29 224555](https://github.com/user-attachments/assets/67213dde-55ab-4543-8d9c-c2e6c7bfd6bf)
-![Screenshot 2025-05-29 224643](https://github.com/user-attachments/assets/72654a5f-1b49-45ec-b67c-40c68fc0a176)
-![Screenshot 2025-05-29 224818](https://github.com/user-attachments/assets/4ec2ebd2-3426-4e8a-a338-f41601947c91)
+![Screenshot 2025-05-29 221949](https://github.com/user-attachments/assets/6f80fe9f-14b8-4f69-9042-be0b6e4125d1)
 
 
 
