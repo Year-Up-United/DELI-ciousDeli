@@ -64,25 +64,25 @@ public class Order {
         String summary = "";
 
     // sandwiches
-    summary += "\n\u001B[95m☆ SANDWICHES ☆\u001B[0m\n";
+    summary += "\n☆ SANDWICHES ☆\n";
     for (Sandwich s: sandwiches){
         summary += s.getDescription() + "\n\n";
     }
 
     // drinks
-    summary += "\n\u001B[95m☆ DRINKS ☆\u001B[0m\n";
+    summary += "\n☆ DRINKS ☆\n";
     for (Drinks d: drinks){
         summary += " - " + d.getDescription() + "\n\n";
     }
 
     // chips
-    summary += "\n\u001B[95m☆ CHIPS ☆\u001B[0m\n";
+    summary += "\n☆ CHIPS ☆\n";
     for (Chips c : chips){
         summary += " - " + c.getDescription() + "\n\n";
     }
 
     // total order
-    summary += "\n\u001B[95m☆ TOTAL ORDER PRICE: \u001B[0m\n" + String.format("%.2f", getTotalPrice()) + "\u001B[0m\n";
+    summary += "\n☆ TOTAL ORDER PRICE ☆\n" + String.format("%.2f", getTotalPrice());
     return summary;
     }
 
